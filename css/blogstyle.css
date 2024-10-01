@@ -1,0 +1,56 @@
+/* Future_plan.css */
+
+/* General styles for the blog section */
+#blogpost {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+/* Heading styles */
+#blogpost h2, #blogpost h3 {
+    color: #0c0c0c; /* Dark color for headings */
+    margin-bottom: 20px;
+}
+
+/* Style for paragraphs */
+#blogpost p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #0c0c0c; /* Light gray color for text */
+}
+
+/* List styles */
+#blogpost ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #0c0c0c; /* Darker gray color for list items */
+}
+
+#blogpost li {
+    margin-bottom: 10px;
+    color: #0c0c0c;
+}
+
+/* Image styling */
+#blogpost img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block; 
+    border: 2px solid #000;
+}
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    #blogpost {
+        padding: 20px 10px;
+    }
+
+    #blogpost h2, #blogpost h3 {
+        font-size: 1.5rem;
+    }
+}
